@@ -1,4 +1,36 @@
 html {
-  background: #0025ff;
-  color: #fff;
+  background: #F5DDDD;
+  color: #5C4033;
+}
+
+.big-news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 200px);
+}
+
+.grid-item-picture {
+  background: red;
+}
+
+.grid-item-text {
+  background: black;
+}
+
+/* tablet */
+@media (min-width: 668px) and (max-width: 1024px) {
+  html {
+    background: #5C4033;
+    color: red;
+  }
+
+  /* Desktop break point */
+  @media (min-width: 1025px) {
+    html {
+      background: #BF40BF;
+      color: #FFFF00;
+    }
+  }
+
+
 }
